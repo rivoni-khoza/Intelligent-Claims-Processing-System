@@ -1,1 +1,21 @@
 # Intelligent-Claims-Processing-System
+
+## Overview
+This project automates and summarizes insurance claim documents using a Large Language Model (LLM) integrated with Azure services. It supports faster triaging, reduces manual effort, and improves fraud detection accuracy.
+
+## Business Problem
+Claims departments face inefficiencies due to manual processing, inconsistent classification, and delayed decision-making. This solution accelerates claim handling and provides real-time insights.
+
+## Tech Stack
+- LLM: OpenAI / Azure OpenAI (via LangChain)
+- Cloud: Azure Functions, Blob Storage, Data Factory
+- Data Processing: PySpark on Azure Databricks
+- Data Warehouse: Azure Synapse Analytics
+- Visualization: Power BI
+- Tools: VSCode, Git, PowerShell, SQL Server Management Studio
+
+## Key Features
+- Automated classification of claims via LLM
+- Real-time summarization of claim narratives
+- Fraud pattern scoring using keyword embeddings
+- Power BI dashboard for executive monitoring
