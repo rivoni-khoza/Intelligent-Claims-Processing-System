@@ -1,4 +1,5 @@
-# get_data.py
+# get_data.
+
 import requests
 import pandas as pd
 from typing import Dict
@@ -17,3 +18,5 @@ def load_claim_data(url: str, params: Dict[str, str]) -> pd.DataFrame:
     response = requests.get(url, params=params)
     response.raise_for_status()
     return pd.DataFrame(response.json())
+
+def 
