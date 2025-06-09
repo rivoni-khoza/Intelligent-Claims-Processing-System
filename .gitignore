@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+*.bak
+*.tmp
+
+# Data files (optional, avoid committing large or sensitive data)
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.zip
+data/*.txt
+
+# Notebooks output (optional if output is heavy)
+notebook/*.ipynb
+
+# Environment files (optional)
+.env
+
+# Local test and cache files
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Ignore test result artifacts
+*.out
+*.coverage
+*.log
+
+# Azure/Cloud cache files
+.azure/
