@@ -7,7 +7,7 @@ This project automates and summarizes insurance claim documents using a Large La
 Claims departments face inefficiencies due to manual processing, inconsistent classification, and delayed decision-making. This solution accelerates claim handling and provides real-time insights.
 
 ## Tech Stack
-- LLM: OpenAI / Azure OpenAI (via LangChain)
+- LLM: OpenAI  (via LangChain)
 - Cloud: Azure Functions, Blob Storage, Data Factory
 - Data Processing: PySpark on Azure Databricks
 - Data Warehouse: Azure Synapse Analytics
