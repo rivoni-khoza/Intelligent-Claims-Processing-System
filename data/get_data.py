@@ -18,5 +18,3 @@ def load_claim_data(url: str, params: Dict[str, str]) -> pd.DataFrame:
     response = requests.get(url, params=params)
     response.raise_for_status()
     return pd.DataFrame(response.json())
-
-def 
