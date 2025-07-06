@@ -5,6 +5,12 @@ This project automates and summarizes insurance claim documents using a Large La
 
 ## Business Problem
 Claims departments face inefficiencies due to manual processing, inconsistent classification, and delayed decision-making. This solution accelerates claim handling and provides real-time insights.
+-  **LLMs for text summarization and classification**
+-  **Azure services** for data processing and deployment
+-  **Exploratory Data Analysis (EDA)** for insight generation
+-  **Business Intelligence (BI)** for claims monitoring
+-  **Data engineering and modeling** for structured data integration
+
 
 ## Tech Stack
 - LLM: OpenAI  (via LangChain)
